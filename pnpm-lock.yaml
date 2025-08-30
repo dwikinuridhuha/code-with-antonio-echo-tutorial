@@ -110,6 +110,15 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
 
+  packages/backend:
+    devDependencies:
+      '@workspace/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      typescript:
+        specifier: latest
+        version: 5.9.2
+
   packages/eslint-config:
     devDependencies:
       '@eslint/js':
