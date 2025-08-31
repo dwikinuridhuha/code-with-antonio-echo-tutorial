@@ -11,5 +11,8 @@
   "devDependencies": {
     "@workspace/typescript-config": "workspace:*",
     "typescript": "latest"
+  },
+  "dependencies": {
+    "convex": "^1.26.2"
   }
 }
